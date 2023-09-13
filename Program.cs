@@ -101,7 +101,7 @@ namespace Elaborazione_dati_CSV__ripasso_app_cosnole
                         {
                             Console.Clear();
                             Console.SetCursorPosition(30, 12);
-                            Console.WriteLine("Elemento trovato alla riga" + j);
+                            Console.WriteLine("Elemento trovato alla riga " + j);
                             Thread.Sleep(2000);
                         }
                         else

@@ -181,7 +181,7 @@ namespace Console_della_gestione_File_csv
                 String[] split = s.Split(';');
                 String[] split1 = split[Istruzione2() - 1].Split(' ');
 
-                if (split1[5] == parola)
+                if (split1[0] == parola)
                 {
                     reader.Close();
                     return i;
